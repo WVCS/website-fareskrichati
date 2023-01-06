@@ -19,9 +19,12 @@ iframe{
   padding:100px;
 }
 ul{
-  list-style-type:one;
+  list-style-type:none;
   text-align:center;
   position:fixed;
+  width:100%;
+  background-color:red;
+  top:0;
   width:100%;
 }
 li{
@@ -31,7 +34,7 @@ li a{
   padding: 50px;
   font-family: "Times New Roman", Times, serif;
   boder-style: dotted;
-  color:#DF0632;
+  color:white;
   text-decoration-line:none;
 }
 li a:hover{
